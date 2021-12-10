@@ -31,6 +31,7 @@ body {
 	margin: var(--mc);
 	display: flex;
 	justify-content: space-between;
+	padding: 0 15px;
 }
 
 nav ul {
