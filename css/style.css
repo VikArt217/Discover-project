@@ -85,3 +85,7 @@ nav a:hover {
 	top: 47px;
 	right: 43px;
 }
+
+.mini-menu {
+	display: none;
+}
