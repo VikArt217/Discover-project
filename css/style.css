@@ -89,3 +89,40 @@ nav a:hover {
 .mini-menu {
 	display: none;
 }
+
+.offer {
+	min-height: 915px;
+	background: url(../img/bg.jpg) center / cover fixed;
+}
+
+.offer__container {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: inherit;
+	text-align: center;
+}
+
+.offer__title {
+	margin: 0;
+	color: var(--white);
+	font-size: 68px;
+	text-transform: uppercase;
+}
+
+.offer__text {
+	color: var(--white);
+	max-width: 1000px;
+	font-size: 22px;
+	line-height: 173%;
+}
+
+.offer__btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	background:var(--green);
+	color:var(--white);
+	font-size: 26px;
+	padding: 25px 40px;
+	border-radius: 5px;
+}

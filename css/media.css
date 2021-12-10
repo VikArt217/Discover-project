@@ -17,6 +17,11 @@
 		text-align: center;
 		padding: 56px 0;
 	}
+
+	.offer {
+		min-height: auto;
+		padding: 40px 0;
+	}
 }
 
 @media (max-width: 800px) {
@@ -30,7 +35,7 @@
 		cursor: pointer;
 		font-size: 18px;
 		font-weight: 900;
-		color:var(--white);
+		color: var(--white);
 		text-transform: uppercase;
 	}
 
@@ -41,8 +46,8 @@
 
 	nav a {
 		padding: 20px 0;
-		background:var(--green);
-		color:var(--white);
+		background: var(--green);
+		color: var(--white);
 		border-top: 2px solid var(--white);
 		transition: 0.3s;
 	}
@@ -50,5 +55,29 @@
 	nav a:hover {
 		background: rgba(89, 196, 90, 0.6);
 		color: var(--color-menu);
+	}
+
+	.offer__title {
+		font-size: 50px;
+	}
+
+	.header__container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media(max-width: 576px) {
+	nav {
+		margin-top: 30px;
+	}
+	.offer__text {
+		margin: 20px auto 35px;
+		font-size: 18px;
+	}
+
+	.offer__btn {
+		font-size: 22px;
+		padding: 18px 40px;
 	}
 }
