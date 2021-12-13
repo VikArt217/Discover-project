@@ -120,9 +120,82 @@ nav a:hover {
 .offer__btn {
 	text-decoration: none;
 	text-transform: uppercase;
-	background:var(--green);
-	color:var(--white);
+	background: var(--green);
+	color: var(--white);
 	font-size: 26px;
 	padding: 25px 40px;
 	border-radius: 5px;
+}
+
+.favorable {
+	padding: 100px 0 70px;
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--green);
+	font-size: 28px;
+	font-weight: 400;
+	margin: 0;
+	position: relative;
+}
+
+.section-title::before {
+	content: '';
+	display: block;
+	width: 150px;
+	height: 1px;
+	background: #c2c2c2;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-75px);
+}
+
+.section-title::after {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: var(--green);
+	position: absolute;
+	top: 39px;
+	left: 50%;
+	transform: translateX(-25px);
+}
+
+.fav-container {
+	flex-wrap: wrap;
+	margin-top: 60px;
+}
+
+.fav-item {
+	width: 48%;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.fav-img {
+	width: 50%;
+	margin-right: 30px;
+}
+
+.fav-text {
+	width: 280px;
+}
+
+.fav-text h3 {
+	font-size: 15px;
+	font-weight: 900;
+	color: var(--color-title);
+	margin: 15px 0 10px;
+}
+
+.fav-text p {
+		font-size: 14px;
+		font-weight: 400;
+		color:var(--color-text);
+		line-height: 157%;
 }

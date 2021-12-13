@@ -22,6 +22,22 @@
 		min-height: auto;
 		padding: 40px 0;
 	}
+
+	.fav-container {
+		flex-direction: column;
+	}
+
+	.fav-item {
+		width: 100%;
+	}
+
+	.fav-text {
+		width: 100%;
+	}
+
+	.fav-img {
+		width: 30%;
+	}
 }
 
 @media (max-width: 800px) {
@@ -67,7 +83,7 @@
 	}
 }
 
-@media(max-width: 576px) {
+@media(max-width: 700px) {
 	nav {
 		margin-top: 30px;
 	}
@@ -79,5 +95,21 @@
 	.offer__btn {
 		font-size: 22px;
 		padding: 18px 40px;
+	}
+
+	.favorable {
+		padding: 60px 0 30px;
+	}
+
+	.fav-item {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.fav-img {
+		width: 70%;
+		margin: 0 auto;
+
 	}
 }
