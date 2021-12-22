@@ -22,4 +22,12 @@ $(function () {
 
 	});
 
+	AOS.init({
+		offset: 200,
+		duration: 800,
+		easing: 'ease-in-quad',
+		delay: 100,
+		once: true,
+	});
+
 });

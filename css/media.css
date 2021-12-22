@@ -42,7 +42,14 @@
 
 	.offer {
 		min-height: auto;
-		padding: 40px 0;
+	}
+
+	.offer__container {
+		padding: 125px 15px;
+	}
+
+	.offer__text {
+		margin-bottom: 50px;
 	}
 
 	.fav-container {

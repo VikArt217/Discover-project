@@ -32,6 +32,7 @@ body {
 .wrapper {
 	max-width: var(--wrapWigth);
 	margin: var(--mc);
+	overflow: hidden;
 }
 
 .container {
@@ -110,6 +111,7 @@ nav a:hover {
 	align-items: center;
 	min-height: inherit;
 	text-align: center;
+	padding: 350px 15px 196px;
 }
 
 .offer__title {
@@ -123,6 +125,7 @@ nav a:hover {
 	max-width: 1000px;
 	font-size: 22px;
 	line-height: 173%;
+	margin-bottom: 96px;
 }
 
 .offer__btn {
